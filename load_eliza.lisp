@@ -10,7 +10,7 @@ bugs to vladimir kulyukin in canvas
 
 ;;; change this parameter as needed.
 (defparameter *eliza-path* 
-    "/home/nicksorenson/School/intellSys/assign6")
+    "/home/nicksorenson/School/intellSys/assign6/")
 
 ;;; the files that comprise ELIZA.
 (defparameter *eliza-files* 
