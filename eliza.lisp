@@ -7,6 +7,63 @@ Description: A version of ELIZA that takes inputs without
 paretheses around them unlike eliza1.lisp.
 Bugs to vladimir kulyukin in canvas
 =========================================================
+My conversation with Eliza:
+=========================================================
+ELIZA> hello eliza
+HOW DO YOU DO. PLEASE STATE YOUR PROBLEM.
+ELIZA> I feel sad about my mother
+IS YOUR MOTHER THE REAL REASON YOU ARE SAD? LETS TALK MORE ABOUT YOUR MOTHER.
+ELIZA> what do you know about my mom
+DID I MAKE YOU UNCOMFORTABLE?
+ELIZA> yes
+PLEASE GO ON
+ELIZA> I am done with this
+YOU ARE DONE WITH THIS
+ELIZA> You are just a computer
+WHY DO YOU MENTION COMPUTERS?
+ELIZA> Because you are just a bot!
+THAT IS NOT A VERY GOOD REASON
+ELIZA> I'll give you a good reason
+YOU 'LL GIVE I A GOOD REASON
+ELIZA> shut up stupid
+SHUT UP STUPID
+ELIZA> no you shut up
+YOU SHUT UP
+ELIZA> no you shut up
+YOU ARE THE
+ELIZA> what? that doesn't make sense
+PLEASE GO ON
+ELIZA> I am tired of talking to you
+RIGHT THIS IS EXACTLY WHAT I WANT TO BE DOING RIGHT NOW
+ELIZA> I love how smart you think you are
+ARE YOU THE ONE DOING THE THINKING?
+ELIZA> I don't know... am i
+YOU DON 'T KNOW ARE YOU
+ELIZA> You are just a bot
+JUST A BOT ? JUST A BOT ? DO YOU EVEN KNOW WHAT BOT MEANS?
+ELIZA> Im out of time for this
+WOULD YOU BE HAPPY IF YOU HAD MORE TIME FOR THIS ?
+ELIZA> no, that would make me not happy
+ISNT THAT SPECIAL
+ELIZA> I love how smart you think you are
+ARE YOU THE ONE DOING THE THINKING?
+ELIZA> I love how smart act
+LOVE IS JUST A CHEMICAL IN YOUR BRAIN
+ELIZA> Did they actually spend money making you?
+WAIT IM GETTING PAID FOR THIS RIGHT?
+ELIZA> do you like this
+KEEP TALKING... I CHARGE BY THE HOUR...
+ELIZA> I am tired. Leave me alone
+AND HOW DOES THAT MAKE YOU FELL?
+ELIZA> depressed
+WHAT YOU WANT A COOKIE?
+ELIZA> shut up bot
+SHUT UP BOT
+ELIZA> you are the bot
+...ARE THEY STIL TALKING...
+ELIZA> good bye
+GOOD BYE
+=========================================================
 |#
 
 ;;; ==============================
@@ -238,60 +295,3 @@ Bugs to vladimir kulyukin in canvas
    ))
 
 ;;; ==============================
-#| 
-my Conversation with Eliza
-ELIZA> hello eliza
-HOW DO YOU DO. PLEASE STATE YOUR PROBLEM.
-ELIZA> I feel sad about my mother
-IS YOUR MOTHER THE REAL REASON YOU ARE SAD? LETS TALK MORE ABOUT YOUR MOTHER.
-ELIZA> what do you know about my mom
-DID I MAKE YOU UNCOMFORTABLE?
-ELIZA> yes
-PLEASE GO ON
-ELIZA> I am done with this
-YOU ARE DONE WITH THIS
-ELIZA> You are just a computer
-WHY DO YOU MENTION COMPUTERS?
-ELIZA> Because you are just a bot!
-THAT IS NOT A VERY GOOD REASON
-ELIZA> I'll give you a good reason
-YOU 'LL GIVE I A GOOD REASON
-ELIZA> shut up stupid
-SHUT UP STUPID
-ELIZA> no you shut up
-YOU SHUT UP
-ELIZA> no you shut up
-YOU ARE THE
-ELIZA> what? that doesn't make sense
-PLEASE GO ON
-ELIZA> I am tired of talking to you
-RIGHT THIS IS EXACTLY WHAT I WANT TO BE DOING RIGHT NOW
-ELIZA> I love how smart you think you are
-ARE YOU THE ONE DOING THE THINKING?
-ELIZA> I don't know... am i
-YOU DON 'T KNOW ARE YOU
-ELIZA> You are just a bot
-JUST A BOT ? JUST A BOT ? DO YOU EVEN KNOW WHAT BOT MEANS?
-ELIZA> Im out of time for this
-WOULD YOU BE HAPPY IF YOU HAD MORE TIME FOR THIS ?
-ELIZA> no, that would make me not happy
-ISNT THAT SPECIAL
-ELIZA> I love how smart you think you are
-ARE YOU THE ONE DOING THE THINKING?
-ELIZA> I love how smart act
-LOVE IS JUST A CHEMICAL IN YOUR BRAIN
-ELIZA> Did they actually spend money making you?
-WAIT IM GETTING PAID FOR THIS RIGHT?
-ELIZA> do you like this
-KEEP TALKING... I CHARGE BY THE HOUR...
-ELIZA> I am tired. Leave me alone
-AND HOW DOES THAT MAKE YOU FELL?
-ELIZA> depressed
-WHAT YOU WANT A COOKIE?
-ELIZA> shut up bot
-SHUT UP BOT
-ELIZA> you are the bot
-...ARE THEY STIL TALKING...
-ELIZA> good bye
-GOOD BYE
-#|
